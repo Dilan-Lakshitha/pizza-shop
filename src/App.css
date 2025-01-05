@@ -27,6 +27,35 @@
 .App-link {
   color: #61dafb;
 }
+/* Global styles (e.g., App.css) */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.container {
+  padding: 0;
+  flex-grow: 1;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-grow {
+  flex: 1; /* Allow the main content to grow */
+}
+
+.min-h-screen {
+  min-height: 100vh; /* Take at least the full height of the viewport */
+}
+footer {
+  height: 50px; /* Adjust to your desired height */
+}
 
 @keyframes App-logo-spin {
   from {
